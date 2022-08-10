@@ -1,0 +1,44 @@
+*{
+    text-align: center;
+}
+.nome{
+    margin-top: 350px;
+    margin-left: auto;
+}
+.senha{
+    margin-left: auto;
+    margin-top: 20px;
+}
+.letras{
+    color: black;
+}
+button{
+    width: 180px;
+    height: 30px;
+    border-radius: 20vw;
+    font-size: smaller;
+    background-color: rgba(216, 214, 214, 0.712);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.botao{
+    margin-left: auto;
+    margin-top: 30px;
+}
+input{
+    text-align: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 200px;
+    
+}
+input::placeholder{
+    color: black;
+}
+input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
